@@ -60,12 +60,16 @@ Los objetivos principales de esta práctica son:
 ```cd my-proyecto-millonario```
 - ***Crear el archivo de documentación***
 
+```touch README.md```
 - ***Añade los cambios (README.md) al staging area***
 
+```git add .```
 - ***Confirma los cambios con el mensaje***
 
+```git commit -m "commit inicial"```
 - ***Sube los cambios al repositorio remoto***
 
+```git push origin masater```
 > ***IMPORTANTE:*** si estamos capturando una terminal no hace falta capturar todo el escritorio y es importante que se vea el nombre de usuario.
 
 Si encontramos dificultades a la hora de realizar algún paso debemos explicar esas dificultades, que pasos hemos seguido para resolverla y los resultados obtenidos.
