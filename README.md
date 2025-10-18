@@ -20,7 +20,7 @@
 
 #### ***Introducción***. <a name="id1"></a>
 
-"Esta práctica consiste en el flujo de trabajo fundamental de Git y GitHub. Empezaremos desde clonar un repositorio y hacer los commits iniciales, hasta la gestión de archivos ignorados (.gitignore), trabajar con ramas (branch), sobre todo fusionar el código (merge).
+Esta práctica consiste en el flujo de trabajo fundamental de Git y GitHub. Empezaremos desde clonar un repositorio y hacer los commits iniciales, hasta la gestión de archivos ignorados (.gitignore), trabajar con ramas (branch), sobre todo fusionar el código (merge).
 
 #### ***Objetivos***. <a name="id2"></a>
 
