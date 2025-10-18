@@ -74,7 +74,7 @@ Los objetivos principales de esta práctica son:
 
 - ***Crea un fichero sensible***
 
-```touch privado.txt``
+```touch privado.txt```
 - ***Crea un directorio que no debe subir***
 
 ```mkdir privada```
@@ -129,6 +129,23 @@ Los objetivos principales de esta práctica son:
 - ***Fusiona los cambios de v0.2 (la adición de 2.txt) en master***
 
 ```git merge v0.2 -m "merge v0.2 sin conflictos"```
+- ***Fusión merge con conflicto y resolución***
+
+´´´
+git checkout master
+echo "Hola" >> 1.txt
+git add .
+git commit -m "hola en 1.txt"
+git checkout v0.2
+echo "Adios" >> 1.txt
+git add .
+git commit -m "adios en 1.txt"
+git checkout master
+git merge v0.2
+nano 1.txt
+git add .
+git add .
+```
 #### ***Conclusiones***. <a name="id5"></a>
 
 En esta parte debemos exponer las conclusiones que sacamos del desarrollo de la prácica.
