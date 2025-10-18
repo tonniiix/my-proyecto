@@ -135,4 +135,6 @@ git list
 ```
 #### ***Conclusiones***. <a name="id5"></a>
 
-En esta parte debemos exponer las conclusiones que sacamos del desarrollo de la prácica.
+Esta práctica nos sirvió para aprender a usar Git y GitHub.
+También para usar ramas, que es como trabajar en copias de seguridad de tu proyecto. Permite desarrollar cosas nuevas sin estropear el código principal que ya funciona.
+Los tags que sirven para poner etiquetas de "Versión 1.0" a tu código, marcando momentos importantes. El archivo .gitignore. Y por último, cuando juntas el trabajo de las ramas (fusión), a veces Git se confunde porque dos personas cambiaron la misma línea. Aprender a resolver esos conflictos es la parte más importante para poder trabajar en equipo.
