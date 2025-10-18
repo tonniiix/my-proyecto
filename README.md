@@ -20,15 +20,31 @@
 
 #### ***Introducción***. <a name="id1"></a>
 
-Aquí explicamos brevemente la parte teórica que tiene que ver con la práctica que se va a realizar
+"Esta práctica consiste en el flujo de trabajo fundamental de Git y GitHub. Empezaremos desde clonar un repositorio y hacer los commits iniciales, hasta la gestión de archivos ignorados (.gitignore), trabajar con ramas (branch), sobre todo fusionar el código (merge).
 
 #### ***Objetivos***. <a name="id2"></a>
 
-Aquí explicamos los objetivos que se pretenden alcanzar al realizar la práctica.
+Los objetivos principales de esta práctica son:
+
+- Crear y clonar un repositorio de GitHub.
+
+- Dominar el flujo de trabajo básico de Git: add, commit y push.
+
+- Aprender a gestionar y excluir archivos mediante .gitignore.
+
+- Utilizar tags para marcar versiones específicas.
+
+- Comprender y aplicar el concepto de ramas (branchs) para el desarrollo de nuevas características o funcionalidades.
+
+- Realizar fusiones (merges) y aprender a resolver conflictos cuando se producen.
 
 #### ***Material empleado***. <a name="id3"></a>
 
-Enumeramos el material empleado tanto hardware como software y las conficuraciones que hacemos (configuraciones de red por ejemplo) 
+1. Máquina virtual
+2. Terminal (para usar comandos)
+3. Captura de pantalla
+4. Linux
+5. Github 
 
 #### ***Desarrollo***. <a name="id4"></a>
 
