@@ -53,82 +53,54 @@ Los objetivos principales de esta práctica son:
 ![Mi Foto](img/crear-repo.png)
 
 
-- ***Clona el repositorio remoto vacío en el equipo local***
+- ***Clonar repo y commit inicial***
 
-```git clone git@github.com:alumno-XXX/my-proyecto-millonario.git```
-- ***Acceder a la carpeta del proyecto***
+```bash
+git clone git@github.com:alumno-XXX/my-proyecto-millonario.git
+cd my-proyecto-millonario
+touch README.md
+git add .
+git commit -m "commit inicial"
+git push origin master
+```
 
-```cd my-proyecto-millonario```
-- ***Crear el archivo de documentación***
+- ***Ignorar Archivos***
 
-```touch README.md```
-- ***Añade los cambios (README.md) al staging area***
+```bash
+touch privado.txt
+mkdir privada
+echo "privado.txt" >> .gitignore
+echo "/privada" >> .gitignore
+git add .
+git commit -m "añadido fichero .gitignore"
+```
 
-```git add .```
-- ***Confirma los cambios con el mensaje***
+- ***3. Añadir Fichero y Tags***
 
-```git commit -m "commit inicial"```
-- ***Sube los cambios al repositorio remoto***
+```bash
+touch 1.txt
+git add .
+git commit -m "añadido 1.txt"
+git tag v0.1
+git push --tags origin master
+```
 
-```git push origin masater```
+- ***Trabajo con ramas***
 
-- ***Crea un fichero sensible***
+```bash
+git branch v0.2
+git checkout v0.2
+touch 2.txt
+git add .
+git commit -m "añadido 2.txt"
+git push origin v0.2
+```
+- ***Merge sin Conflicto***
 
-```touch privado.txt```
-- ***Crea un directorio que no debe subir***
-
-```mkdir privada```
-- ***Añade la regla para ignorar el fichero***
-
-```echo "privado.txt" >> .gitignore```
-- ***Añade la regla para ignorar el directorio***
-
-```echo "/privada" >> .gitignore```
-- ***Añade el archivo .gitignore modificado al staging area***
-
-```git add .```
-- ***Confirma la adición del .gitignore***
-
-```git commit -m "añadido fichero .gitignore"```
-- ***Crea el fichero 1.txt***
-
-```touch 1.txt```
-- ***Añade el fichero 1.txt al staging area***
-
-```git add .```
-- ***Confirma la creación de 1.txt***
-
-```git commit -m "añadido 1.txt"```
-- ***Crea el tag local con el nombre v0.1 en el commit actual***
-
-```git tag v0.1```
-- ***Sube la rama y, específicamente, sube el tag recién creado al repositorio remoto***
-
-```git push --tags origin master```
-- ***Crea una rama nueva de desarrollo (local)***
-
-```git branch v0.2```
-- ***Cambia el directorio de trabajo (HEAD) a la nueva rama***
-
-```git checkout v0.2```
-- ***Crea un nuevo fichero 2.txt en esta rama***
-
-```touch 2.txt```
-- ***Añade 2.txt al staging area***
-
-```git add .```
-- ***Confirma la creación de 2.txt en la rama v0.2***
-
-```git commit -m "añadido 2.txt"```
-- ***Sube la rama v0.2 y sus cambios al repositorio remoto***
-
-```git push origin v0.2```
-- ***Vuelve a la rama principal***
-
-```git checkout master```
-- ***Fusiona los cambios de v0.2 (la adición de 2.txt) en master***
-
-```git merge v0.2 -m "merge v0.2 sin conflictos"```
+```bash
+git checkout master
+git merge v0.2 -m "merge v0.2 sin conflictos"
+```
 - ***Fusión merge con conflicto y resolución***
 
 ```bash
