@@ -52,6 +52,7 @@ Los objetivos principales de esta práctica son:
 
 ![Mi Foto](img/crear-repo.png)
 
+
 - ***Clona el repositorio remoto vacío en el equipo local***
 
 ```git clone git@github.com:alumno-XXX/my-proyecto-millonario.git```
@@ -70,6 +71,40 @@ Los objetivos principales de esta práctica son:
 - ***Sube los cambios al repositorio remoto***
 
 ```git push origin masater```
+
+- ***Crea un fichero sensible***
+
+```touch privado.txt``
+- ***Crea un directorio que no debe subir***
+
+```mkdir privada```
+- ***Añade la regla para ignorar el fichero***
+
+```echo "privado.txt" >> .gitignore```
+- ***Añade la regla para ignorar el directorio***
+
+```echo "/privada" >> .gitignore```
+- ***Añade el archivo .gitignore modificado al staging area***
+
+```git add .```
+- ***Confirma la adición del .gitignore***
+
+```git commit -m "añadido fichero .gitignore"```
+- ***Crea el fichero 1.txt***
+
+```touch 1.txt```
+- ***Añade el fichero 1.txt al staging area***
+
+```git add .```
+- ***Confirma la creación de 1.txt***
+
+```git commit -m "añadido 1.txt"```
+- ***Crea el tag local con el nombre v0.1 en el commit actual***
+
+```git tag v0.1```
+- ***Sube la rama y, específicamente, sube el tag recién creado al repositorio remoto***
+
+```git push --tags origin master``
 
 
 #### ***Conclusiones***. <a name="id5"></a>
