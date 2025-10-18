@@ -53,8 +53,8 @@ Los objetivos principales de esta práctica son:
 ![Mi Foto](img/crear-repo.png)
 
 - ***Clona el repositorio remoto vacío en el equipo local***
-
 ```git clone git@github.com:alumno-XXX/my-proyecto-millonario.git```
+
 - ***Acceder a la carpeta del proyecto***
 
 - ***Crear el archivo de documentación***
