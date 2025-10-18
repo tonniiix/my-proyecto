@@ -144,7 +144,23 @@ git checkout master
 git merge v0.2
 nano 1.txt
 git add .
+```
 
+- ***Eliminación de ramas***
+
+```bash
+git branch --merged
+git branch --no-merged
+git tag v0.2
+git branch -d v0.2
+```
+
+- ***Cambios***
+
+```bash
+git config --global alias.list 'log --oneline --decorate --graph --all'
+git list
+```
 #### ***Conclusiones***. <a name="id5"></a>
 
 En esta parte debemos exponer las conclusiones que sacamos del desarrollo de la prácica.
