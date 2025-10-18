@@ -105,8 +105,30 @@ Los objetivos principales de esta práctica son:
 - ***Sube la rama y, específicamente, sube el tag recién creado al repositorio remoto***
 
 ```git push --tags origin master```
+- ***Crea una rama nueva de desarrollo (local)***
 
+```git branch v0.2```
+- ***Cambia el directorio de trabajo (HEAD) a la nueva rama***
 
+```git checkout v0.2```
+- ***Crea un nuevo fichero 2.txt en esta rama***
+
+```touch 2.txt```
+- ***Añade 2.txt al staging area***
+
+```git add .```
+- ***Confirma la creación de 2.txt en la rama v0.2***
+
+```git commit -m "añadido 2.txt"```
+- ***Sube la rama v0.2 y sus cambios al repositorio remoto***
+
+```git push origin v0.2```
+- ***Vuelve a la rama principal***
+
+```git checkout master```
+- ***Fusiona los cambios de v0.2 (la adición de 2.txt) en master***
+
+```git merge v0.2 -m "merge v0.2 sin conflictos"```
 #### ***Conclusiones***. <a name="id5"></a>
 
 En esta parte debemos exponer las conclusiones que sacamos del desarrollo de la prácica.
