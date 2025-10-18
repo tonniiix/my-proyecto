@@ -52,6 +52,18 @@ Los objetivos principales de esta práctica son:
 
 ![Mi Foto](img/crear-repo.png)
 
+- ***Clona el repositorio remoto vacío en el equipo local***
+`git clone git@github.com:alumno-XXX/my-proyecto-millonario.git
+- ***Acceder a la carpeta del proyecto***
+
+- ***Crear el archivo de documentación***
+
+- ***Añade los cambios (README.md) al staging area***
+
+- ***Confirma los cambios con el mensaje***
+
+- ***Sube los cambios al repositorio remoto***
+
 > ***IMPORTANTE:*** si estamos capturando una terminal no hace falta capturar todo el escritorio y es importante que se vea el nombre de usuario.
 
 Si encontramos dificultades a la hora de realizar algún paso debemos explicar esas dificultades, que pasos hemos seguido para resolverla y los resultados obtenidos.
