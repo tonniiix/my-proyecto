@@ -104,7 +104,7 @@ Los objetivos principales de esta práctica son:
 ```git tag v0.1```
 - ***Sube la rama y, específicamente, sube el tag recién creado al repositorio remoto***
 
-```git push --tags origin master``
+```git push --tags origin master```
 
 
 #### ***Conclusiones***. <a name="id5"></a>
