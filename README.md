@@ -131,19 +131,19 @@ Los objetivos principales de esta práctica son:
 ```git merge v0.2 -m "merge v0.2 sin conflictos"```
 - ***Fusión merge con conflicto y resolución***
 
-´´´git checkout master´´´
-´´´echo "Hola" >> 1.txt´´´
-´´´git add .´´´
-´´´git commit -m "hola en 1.txt"´´´
-´´´git checkout v0.2´´´
-´´´echo "Adios" >> 1.txt´´´
-´´´git add .´´´
-´´´git commit -m "adios en 1.txt"´´´
-´´´git checkout master´´´
-´´´git merge v0.2´´´
-´´´nano 1.txt´´´
-´´´git add .´´´
-´´´git add .```
+```bash
+git checkout master
+echo "Hola" >> 1.txt
+git add .
+git commit -m "hola en 1.txt"
+git checkout v0.2
+echo "Adios" >> 1.txt
+git add .
+git commit -m "adios en 1.txt"
+git checkout master
+git merge v0.2
+nano 1.txt
+git add .
 
 #### ***Conclusiones***. <a name="id5"></a>
 
