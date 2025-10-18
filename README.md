@@ -70,9 +70,7 @@ Los objetivos principales de esta práctica son:
 - ***Sube los cambios al repositorio remoto***
 
 ```git push origin masater```
-> ***IMPORTANTE:*** si estamos capturando una terminal no hace falta capturar todo el escritorio y es importante que se vea el nombre de usuario.
 
-Si encontramos dificultades a la hora de realizar algún paso debemos explicar esas dificultades, que pasos hemos seguido para resolverla y los resultados obtenidos.
 
 #### ***Conclusiones***. <a name="id5"></a>
 
